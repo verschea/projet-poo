@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 #include <queue>
-#include <boost/circular_buffer.hpp>
+//#include <boost/circular_buffer.hpp>
 
 
 using namespace std;
@@ -48,7 +48,7 @@ class Bus : public Component{
         void set_data_ready();
         DataValue_t read();
 };
-
+/*
 class Memory : public Component{
     public:
         string label;
@@ -69,7 +69,7 @@ class Display : public Component{
     private:    
         int refresh;
         void simulate();
-};
+};*/
 
 
 #endif
