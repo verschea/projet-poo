@@ -1,0 +1,5 @@
+>> ssh-keygen
+>> cat .ssh/id_rsa.pub
+aller sur gitlab, profil > settings > ssh and gpg keys
+add new key
+copier le contenue du fichier
