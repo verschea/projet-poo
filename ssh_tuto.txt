@@ -3,3 +3,4 @@
 aller sur gitlab, profil > settings > ssh and gpg keys
 add new key
 copier le contenue du fichier
+>> git config --global user.name "ton nom d'utilisateur"
